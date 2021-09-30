@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Brightza</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+<link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body id="bodyPage"> 
+   
+    <div id="menuBar">
+    <div id="menu">  
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="nav" id="nav">
+        <li><a href="#home">Home</a></a></li>
+        <li><a href="#ourMenu">Our Menu</a></li>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li> <a href="#bookATable">Book a Table</a></li>   
+    </ul>
+</div>
+<div class="menu-bg" id="menu-bg"></div>
+<div id="container1">
+<section id="home">
+    <h1>Brightza</h1>
+<p>let there be magic</p> </section>
+<section id="ourMenu">
+    <h1>Menu</h1>
+<p>lots of fancy stuff</p> 
+    </section>
+<section id="aboutUs"><h1>About us</h1>
+    <p></p> 
+<div id="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2" >
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <div id="slides">
+        <div id="overflow">
+            <div class="inner">
+                <div class="slide slide_1">
+                    <div class="slide-content">
+                        <h2>"Love at first sight" </h2>
+                        <p>James Bacon</p>
+                    </div>
+                </div>
+                <div class="slide slide_2">
+                    <div class="slide-content">
+                        <h2>"An amazing and delightful experience"</h2>
+                        <p>David Cornerstone</p>
+                    </div>
+                </div>
+                <div class="slide slide_3">
+                    <div class="slide-content">
+                        <h2> "I fell in love with the avocado crispy cookies" </h2>
+                        <p>Content for Slide 3</p>
+                    </div>
+                </div>
+                <div class="slide slide_4">
+                    <div class="slide-content">
+                        <h2> John Doe </h2>
+                        <p>"5 star rating, certainly"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+    </div>
+</div>
+
+</section>
+
+    <section id="bookATable"> 
+    <h1></h1>
+
+<div class="booking-form-box">
+
+<div class="bookingForm">
+    <label>Name</label>
+        <input type ="text" class="form-control" placeholder="Name" id="clientNameForm">
+        <label>Last Name</label>
+<input type ="text" class="form-control" placeholder="Last Name" id="clientLastNameForm">
+
+<div class="inputGroup">
+    <label>Date</label>
+        <input type ="date" class="form-control select-date" id="selectDateForm">
+</div>
+
+<div class="inputGroup">
+    <label>Adults</label>
+        <input type ="number" class="form-control" value="1" id="numberOfAdultsForm">
+    </div>
+
+    <div class="inputGroup">
+        <label>Children</label>
+            <input type ="number" class="form-control" value="1" id="numberOfChildrenForm">
+        </div>
+<div class="input-grp">
+    <button type="button" class="btn btn-primary flight" id="submitButtonForm">Book Now</button>
+</div>
+    </div>
+</div>
+</section>
+<script type="module" src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js">;
+import {initializeApp} from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+
+</script>
+
+<script type="module" src="https://www.gstatic.com/firebasejs/9.0.1/firebase-firestore.js">
+</script>"
+</body>
+<script src='app.js'></script>
+ <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+
+</html>
